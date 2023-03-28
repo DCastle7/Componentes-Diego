@@ -1,0 +1,8 @@
+main{
+    height: calc(100vh - var(--toolbar-height));
+    /* width: calc( 100vw - var(--sidebar-width)); */
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-left: var(--sidebar-width);
+    
+}

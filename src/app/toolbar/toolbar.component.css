@@ -1,0 +1,14 @@
+.toolbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--toolbar-height);
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  }

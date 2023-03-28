@@ -1,0 +1,20 @@
+aside{
+    display: flex;
+    position: fixed;
+    background-color: brown;
+    height: calc(100vh - var(--toolbar-height));
+    width: var(--sidebar-width);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    height: 70%;
+    width: 70%;
+}

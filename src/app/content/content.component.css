@@ -1,0 +1,105 @@
+section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+  .caja{
+    width: 500px;
+    height: 500px;
+    background: papayawhip;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px 5px;
+    }
+  .caja :nth-child(1){
+    width: 100%;  
+    height: 35%;
+  }
+  #foto{
+    position: absolute;
+    border-radius: 45%;
+    width: 12%;
+    height: 30%;
+    top: 20px;
+    left: 44%;
+    z-index: 5;
+  }
+  p{
+    
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #bandera{
+    width: 10%;
+    height: 10%;
+  }
+  
+  .portada{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+  .portada :nth-child(1){
+    display: flex;
+    position: absolute;
+    top: 10px;
+    justify-content: center;  
+  }
+
+ 
+  .portada :nth-child(n+2){
+    top: 45px;
+  }
+  .pais{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 5%;
+    
+  }
+  #bandera{
+    display: flex;
+    position: absolute;
+    left:30px;
+    width: 25px;
+    height: 25px;
+  }
+  .pais :nth-child(2) {
+    display: flex;
+    position: absolute;
+    font-family: 'Courier New';
+    left:60px;
+  }
+  .pais :nth-child(3) {
+    display: flex;
+    position: absolute;
+    font-family: 'Arial';
+    right: 10px;
+    width: 40%;
+  }
+  .descripcion{
+    display: flex;
+    position: relative;
+    bottom: 45px;
+    color: blue;
+    font-family: 'Courier New';
+    background: azure;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  
